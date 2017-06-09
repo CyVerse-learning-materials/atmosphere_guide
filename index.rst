@@ -21,7 +21,7 @@ on the CyVerse wiki.
 .. toctree::
 	:maxdepth: 2
 
-	Tutorial hom <index.rst>
+	Tutorial home <index.rst>
 	Logging in to Atmosphere <step1.rst>
 	Creating a Project and Launching an Instance <step2.rst>
 	Connecting to an Instance <step3.rst>

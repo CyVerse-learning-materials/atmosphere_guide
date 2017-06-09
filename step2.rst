@@ -43,7 +43,7 @@ images ("saved" instances).
 ----
 
 
-**Creating a Project:**
+**Creating a Project**
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 1. If necessary, login to `Atmosphere <https://atmo.cyverse.org/>`_
@@ -80,7 +80,7 @@ number of instance, images, volmes, and links associated with these projects.
 
 
 
-**Launching an Instance:**
+**Launching an Instance**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. If necessary, login to `Atmosphere`_.

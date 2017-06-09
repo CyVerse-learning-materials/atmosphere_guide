@@ -34,7 +34,7 @@ features not covered here.
 
 ----
 
-**Loging on and viewing your resources:**
+**Logging on and viewing your resources**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   1. Login to Atmosphere at `https://atmo.cyverse.org/ <https://atmo.cyverse.org/>`_
