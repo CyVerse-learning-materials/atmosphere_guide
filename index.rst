@@ -21,12 +21,12 @@ on the CyVerse wiki.
 .. toctree::
 	:maxdepth: 2
 
-	Tutorial home <index.rst>
-	AA <step1.rst>
-	BB <step2.rst>
-	CC <step3.rst>
-	DD <step4.rst>
-	EE <step5.rst>
+	Tutorial home
+	Logging in to Atmosphere
+	Creating a Project and Launching an Instance
+	Connecting to an Instance
+	Transfering Data to and from an Instance
+	Terminating an Instance 
 
 ..
 	#### Comment:This tutorial can have multiple pages. The table of contents assumes
