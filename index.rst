@@ -21,12 +21,7 @@ on the CyVerse wiki.
 .. toctree::
 	:maxdepth: 2
 
-	Tutorial home
-	Logging in to Atmosphere
-	Creating a Project and Launching an Instance
-	Connecting to an Instance
-	Transfering Data to and from an Instance
-	Terminating an Instance 
+
 
 ..
 	#### Comment:This tutorial can have multiple pages. The table of contents assumes
