@@ -8,7 +8,6 @@
 ----------------------------
 
 
-
 Atmosphere presents a variety of features, starting with the Atmosphere
 Dashboard you will see at login. While it may be slightly overwhelming, we will
 focus on the features a first-time user would likely interact with. Return to
