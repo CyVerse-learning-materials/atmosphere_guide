@@ -4,8 +4,8 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-Creating a Project and Launching an Instance
---------------------------------------------
+**Creating a Project and Launching an Instance**
+------------------------------------------------
 
 Atmosphere makes it easy to launch an instance (virtual machine), but your
 work is more than just a computer - it is data and software. To that end,
@@ -18,30 +18,30 @@ images ("saved" instances).
 .. #### Comment: Optional - Insert platform logo
 
 - **Instance**: An instance is a running virtual machine. You request from
-    Atmosphere a CPUs, disk space, and memory, and you are temporarly allocated
+    Atmosphere a CPUs, disk space, and memory, and you are temporarily allocated
     these physical resources to "build" your virtual computer (virtual machine).
 - **Image**: An image is a file that contains an operating system, and any other
     data that was saved at the time of imaging (creating the image file). If we
     saved everything on your computer to an image file, we could clone your
     computer onto a new device and you would not have to reinstall any software.
-    Your files, system prefferences, etc. would all be saved.
+    Your files, system preferences, etc. would all be saved.
 - **Volume**: A volume is a "virtual disk" that you can attach and detach to
-    your instance, like a thumbdrive. Normally, when you start an instance, you
+    your instance, like a thumb drive. Normally, when you start an instance, you
     need to transfer data onto it. While the data transfer may be quick, it
     usually takes time. A volume is nearly instantaneous. Although it is virtual
-    you can keep a volume persistantly in Atmosphere, and attach and detach as
+    you can keep a volume persistently in Atmosphere, and attach and detach as
     needed to any instance.
 
     .. note::
       For our purpose, the terms "instance" and "virtual machine" are used
-      interchangeablly in this guide.
+      interchangeably in this guide.
 
 
 
 ----
 
 
-**Creating a Project**
+*Creating a Project*
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 1. If necessary, login to `Atmosphere <https://atmo.cyverse.org/>`_
@@ -52,7 +52,7 @@ images ("saved" instances).
    click 'CREATE'.
 
 From the 'Projects' page, you will see a listing of existing projects and the
-number of instance, images, volmes, and links associated with these projects.
+number of instance, images, volumes, and links associated with these projects.
 
 |project_icon|
 
@@ -76,9 +76,9 @@ number of instance, images, volmes, and links associated with these projects.
       -	`Image <https://atmo.cyverse.org/application/images/1467>`_
       -
 
+----
 
-
-**Launching an Instance**
+*Launching an Instance*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. If necessary, login to `Atmosphere`_.
@@ -93,7 +93,7 @@ number of instance, images, volmes, and links associated with these projects.
 4. Search through the available instances in the 'Launch an Instance/Select an
    Image' window.
 
-   |launch_window|
+    |launch_window|
 
     .. Tip::
       You can search the image catalogue at any time from the `Image Search <https://atmo.cyverse.org/application/images/search>`_
@@ -119,7 +119,9 @@ Once your instance is launched, your project page will display the status of
 all instances. Instances are typically available within 10-15 minutes.
 
     .. important::
-       You can only connect to an instance when the status diplayed is 'Active'.
+       You can only connect to an instance when the status displayed is
+       **'Active'**.
+       |instance_status|
 
 
 
@@ -160,3 +162,6 @@ all instances. Instances are typically available within 10-15 minutes.
 .. |launch_window| image:: ./img/atmosphere/launch_window.png
     :width: 500
     :height: 400
+.. |instance_status| image:: ./img/atmosphere/instance_status.png
+    :width: 600
+    :height: 120

@@ -4,8 +4,8 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-Connecting to an Instance
--------------------------
+**Connecting to an Instance**
+-----------------------------
 
 Once your instance is in the 'Active' state, you can connect to the instance.
 All instances support connection at the command line via SSH. Many (but not all)
@@ -14,7 +14,7 @@ via a VNC viewing client. We will cover both methods in this guide.
 
 ----
 
-**Connect to Atmosphere Instance using SSH**
+*Connect to Atmosphere Instance using SSH*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Connecting using Mac or Linux Terminal**
@@ -58,24 +58,25 @@ You should now be connected to your Atmosphere instance.
 
 2. Locate the IP address and copy this to your clipboard.
 
-3. Open 'PuTTY.exe' and paste the IP address into the 'Host Name (or IP addres
+3. Open 'PuTTY.exe' and paste the IP address into the 'Host Name (or IP address
    s)' field; click 'Open'
 
     .. note::
       If this is your first time connecting, you may get a security prompt that
-      the server's host key is not chached in the registry. You may click 'Yes'
+      the server's host key is not cached in the registry. You may click 'Yes'
       to continue connecting.
 
 4. When prompted, enter your CyVerse username for the request to 'login as:'
    and enter your CyVerse password to connect.
 
-   .. Tip::
-      Your cursor will not move or indicate you are typing as you enter your
-      password. If you make a mistake, hit enter and you will be prompted again.
+    .. Tip::
+        Your cursor will not move or indicate you are typing as you enter your
+        password. If you make a mistake, hit enter and you will be prompted again.
 
 
+----
 
-**Connect to Atmosphere Instance using VNC viewer**
+*Connect to Atmosphere Instance using VNC viewer*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. note::
@@ -83,8 +84,7 @@ You should now be connected to your Atmosphere instance.
    You can only connect to an Atmosphere instance that has a desktop installed
    and has a running VNC server. Usually this information is in the image
    description. If you are unsure, or having difficulty in connecting to and
-   instance you belive should have a desktop, contact Atmosphere support.
-
+   instance you believe should have a desktop, contact Atmosphere support.
    If you have not already done so, download `Real VNC Viewer <https://www.realvnc.com/download/viewer/>`_
 
 1. If necessary, login to `Atmosphere`_. and locate the instance you are
@@ -102,6 +102,7 @@ You should now be connected to your Atmosphere instance.
    your CyVerse password and click Ok.
 
 You should now be connected to your instance desktop.
+|vnc_desktop|
 
 ..
 	#### Comment: Suggested style guide:
@@ -134,3 +135,6 @@ You should now be connected to your instance desktop.
     :width: 25
     :height: 25
 .. _Home_Icon: http://learning.cyverse.org/
+.. |vnc_desktop| image:: ./img/atmosphere/vnc_desktop.png
+    :width: 400
+    :height: 400

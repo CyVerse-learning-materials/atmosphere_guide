@@ -4,24 +4,25 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-Terminating an Instance
------------------------
+**Terminating an Instance**
+---------------------------
 
 Once you have finished with your Atmosphere instance you will need to terminate
 this instance. If you are not done with the instance and will use it again in
-a short amount of time, you can Stop or Suspend that instance. For more on these
+a short amount of time, you can stop or suspend that instance. For more on these
 options, see the `Atmosphere manual <https://wiki.cyverse.org/wiki/display/atmman/Suspending%2C+Stopping%2C+Rebooting%2C+Resuming%2C+Starting%2C+Moving%2C+and+Deleting+Instances>`_.
 
 
 ----
 
-**Terminating an Instance**
+*Terminating an Instance*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. warning::
-    Once an instance is terminated, all data on that instance is unrecoverable.
-    Ensure that any data you wish to save is transfered to a persistance location
-    such as the CyVerse Data Store or an Atmosphere volume.
+  .. warning::
+      Once an instance is terminated, all data on that instance is unrecoverable.
+      Ensure that any data you wish to save is transferred to a persistent location
+      such as the CyVerse Data Store or an Atmosphere volume.
+
 
   1. If necessary, login to `Atmosphere <https://atmo.cyverse.org/>`_ and locate
      the instance you are terminating in a given project.
@@ -30,8 +31,8 @@ options, see the `Atmosphere manual <https://wiki.cyverse.org/wiki/display/atmma
      "Actions" menu on the right-hand side of the page.
 
   3. Click **Delete** to terminate the instance; read the warning, and click
-    'YES, DELETE THIS INSTANCE' when you are ready to proceede - remember
-    **all data still on this instance will be lost.**
+     'YES, DELETE THIS INSTANCE' when you are ready to proceed - remember
+     **all data still on this instance will be lost.**
 
 
 ..
@@ -46,8 +47,8 @@ options, see the `Atmosphere manual <https://wiki.cyverse.org/wiki/display/atmma
 
 ----
 
-Summary
-~~~~~~~
+*Summary*
+~~~~~~~~~
 
 This guide has taken you through the absolute basics needed to start using
 Atmosphere. There is a lot more to learn, and many more capabilities than
