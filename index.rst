@@ -3,8 +3,8 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-Atmosphere
-==========
+Atmosphere Guide
+================
 
 Goal
 ----
@@ -25,7 +25,7 @@ on the CyVerse wiki.
 	Logging in to Atmosphere <step1.rst>
 	Creating a Project and Launching an Instance <step2.rst>
 	Connecting to an Instance <step3.rst>
-	Transfering Data to/from an Instance <step4.rst>
+	Transfering Data to and from an Instance <step4.rst>
 	Terminating an Instance <step5.rst>
 
 ..
@@ -46,7 +46,6 @@ Downloads, access, and services
 
 ..
 	#### comment: delete any row not needed in this table ####
-
 .. list-table::
     :header-rows: 1
 
@@ -56,27 +55,30 @@ Downloads, access, and services
     * - CyVerse account
       - You will need a CyVerse account to complete this exercise
       - `Register <https://user.cyverse.org/>`_
-		* - Atmosphere Access
-			- Atmosphere access is by request only
-			- Check or request access: `CyVerse User Portal <https://user.cyverse.org/services/mine>`_
-		* - iCommands (Optional)
-			- While you don't have to have iCommands installed, the transfering data
-				section of this guide assumes familiarity with iCommands. You may wish
-				to complete the iCommands tutorial, and you may wish to install iCommands
-				on a local machine if you want to transfer data from that machine to an
-				Atmosphere instance
-			- - `iCommands Quick Start <>`_
-				- `iCommands Download links <>`_
-		* - Terminal or SSH client (Optional)
-			-	You can connect via Webshell to an Atmosphere instance from a web
-				browser. Alternatively, you can connect via SSH from a Mac or Linux
-				computer. If you are using Windows, we suggest a SSH client.
-			-  Windows compatible SSH client (Optional) `PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>`_
-		* - VNC Viewing Client (Optional)
-			- You can connect to a desktop-enabled Atosphere instance from a web
-				browser. Alternatively you can connect via a VNC viewing client such as
-				Real VNC viewer.
-			- Download `Real VNC Viewer for your OS <https://www.realvnc.com/download/viewer/>`_
+    * - Atmosphere Access
+      - Atmosphere access is by request only
+      - Check or request access: `CyVerse User Portal <https://user.cyverse.org/services/mine>`_
+    * - iCommands (Optional)
+      - While you don't have to have iCommands installed, the transfering data
+        section of this guide assumes familiarity with iCommands. You may wish
+        to complete the iCommands tutorial, and you may wish to install iCommands
+        on a local machine if you want to transfer data from that machine to an
+        Atmosphere instance
+      - -`iCommands Quick Start <>`_
+        -`iCommands Download links <>`_
+    * - Terminal or SSH client (Optional)
+      - You can connect via Webshell to an Atmosphere instance from a web
+        browser. Alternatively, you can connect via SSH from a Mac or Linux
+        computer. If you are using Windows, we suggest a SSH client.
+      -  Windows compatible SSH client (Optional) `PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>`_
+    * - VNC Viewing Client (Optional)
+      - You can connect to a desktop-enabled Atosphere instance from a web
+        browser. Alternatively you can connect via a VNC viewing client such as
+        Real VNC viewer.
+      - Download `Real VNC Viewer for your OS <https://www.realvnc.com/download/viewer/>`_
+
+
+
 
 .. Tip::
 		To request access to Atmosphere, login to the `CyVerse User Portal`_.

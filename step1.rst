@@ -7,8 +7,6 @@
 Logging in to Atmosphere
 ------------------------
 
-**Description:**
-
 |atmosphere-icon|
 
 Atmosphere presents a variety of features, starting with the Atmosphere

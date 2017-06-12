@@ -7,8 +7,6 @@
 Creating a Project and Launching an Instance
 --------------------------------------------
 
-**Description:**
-
 Atmosphere makes it easy to launch an instance (virtual machine), but your
 work is more than just a computer - it is data and software. To that end,
 Atmosphere helps you organize your work into a project. A project contains one
