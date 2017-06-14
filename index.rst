@@ -6,10 +6,10 @@
 **Atmosphere Guide**
 ====================
 
+|atmosphere-icon|
+
 Goal
 ----
-
-|atmosphere-icon|
 
 `Atmosphere <http://www.cyverse.org/atmosphere>`_ is one of the most versatile
 components of the CyVerse CI. Anything that you would normally be able to do
