@@ -66,8 +66,8 @@ Downloads, access, and services
         to complete the iCommands tutorial, and you may wish to install iCommands
         on a local machine if you want to transfer data from that machine to an
         Atmosphere instance
-      - -`iCommands Quick Start <>`_
-        -`iCommands Download links <>`_
+      - -`iCommands Guide <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step2.html>`_
+        -`iCommands Download links <https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands>`_
     * - Terminal or SSH client (Optional)
       - You can connect via Webshell to an Atmosphere instance from a web
         browser. Alternatively, you can connect via SSH from a Mac or Linux

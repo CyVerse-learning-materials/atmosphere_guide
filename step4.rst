@@ -18,8 +18,8 @@ installed on every Atmosphere instance.
 
 .. #### Comment: Optional - Insert platform logo
 
-- **iCommands Quick Start:** `link <>`_
-- **iCommands Download:** `link <>`_
+- **iCommands Guide:** `link <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step2.html>`_
+- **iCommands Download:** `link <https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands>`_
 
 
 ----
