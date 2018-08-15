@@ -44,7 +44,7 @@ images ("saved" instances).
 *Creating a Project*
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-1. If necessary, login to `Atmosphere <https://atmo.cyverse.org/>`_
+1. If necessary, login to |Atmosphere|.
    .
 
 2. Click on the **'Projects'** menu at the top of the page; the click on
@@ -81,9 +81,9 @@ number of instance, images, volumes, and links associated with these projects.
 *Launching an Instance*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. If necessary, login to `Atmosphere`_.
+1. If necessary, login to |Atmosphere|.
 
-2. On the `Projects <https://atmo.cyverse.org/application/projects>`_ page click
+2. On the |projects| page click
    on an existing project to launch the instance as part of that project. If
    necessary, create a new project using the directions above.
 
@@ -96,7 +96,7 @@ number of instance, images, volumes, and links associated with these projects.
     |launch_window|
 
     .. Tip::
-      You can search the image catalogue at any time from the `Image Search <https://atmo.cyverse.org/application/images/search>`_
+      You can search the image catalogue at any time from the |image search| 
       page. Click on the 'Images' link at the top of the Atmosphere page. Most
       images have tags to help you identify the installed software. You can also
       click on an image listing to get additional details and descriptions. Since
@@ -165,3 +165,14 @@ all instances. Instances are typically available within 10-15 minutes.
 .. |instance_status| image:: ./img/atmosphere/instance_status.png
     :width: 600
     :height: 120
+.. |Atmosphere| raw:: html
+
+    <a href="https://atmo.cyverse.org/" target="_blank">Atmosphere</a>
+
+.. |projects| raw:: html
+
+    <a href="https://atmo.cyverse.org/application/projects" target="_blank">Projects</a>
+
+.. |image search| raw:: html
+
+    <a href="https://atmo.cyverse.org/application/images/search" target="_blank">Image Search</a>

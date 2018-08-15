@@ -24,7 +24,7 @@ options, see the `Atmosphere manual <https://wiki.cyverse.org/wiki/display/atmma
       such as the CyVerse Data Store or an Atmosphere volume.
 
 
-  1. If necessary, login to `Atmosphere <https://atmo.cyverse.org/>`_ and locate
+  1. If necessary, login to |Atmosphere| and locate
      the instance you are terminating in a given project.
 
   2. Click on the instance name to get to that instances page. You should see an
@@ -89,3 +89,6 @@ Post your question to the user forum:
     :width: 25
     :height: 25
 .. _Home_Icon: http://learning.cyverse.org/
+.. |Atmosphere| raw:: html
+
+    <a href="https://atmo.cyverse.org/" target="_blank">Atmosphere</a>

@@ -20,7 +20,7 @@ via a VNC viewing client. We will cover both methods in this guide.
 **Connecting using Mac or Linux Terminal**
 ``````````````````````````````````````````
 
-1. If necessary, login to `Atmosphere <https://atmo.cyverse.org/>`_. and locate
+1. If necessary, login to |Atmosphere| and locate
    the instance you are connecting to in a given project.
 
 2. Locate the IP address and copy this to your clipboard.
@@ -53,7 +53,7 @@ You should now be connected to your Atmosphere instance.
 **Connecting using Windows and PuTTY**
 ``````````````````````````````````````
 
-1. If necessary, login to `Atmosphere <https://atmo.cyverse.org/>`_. and locate
+1. If necessary, login to |Atmosphere| and locate
    the instance you are connecting to in a given project.
 
 2. Locate the IP address and copy this to your clipboard.
@@ -87,7 +87,7 @@ You should now be connected to your Atmosphere instance.
    instance you believe should have a desktop, contact Atmosphere support.
    If you have not already done so, download `Real VNC Viewer <https://www.realvnc.com/download/viewer/>`_
 
-1. If necessary, login to `Atmosphere`_. and locate the instance you are
+1. If necessary, login to |Atmosphere| and locate the instance you are
    connecting to in a given project.
 
 2. Locate the IP address and copy this to your clipboard.
@@ -138,3 +138,6 @@ You should now be connected to your instance desktop.
 .. |vnc_desktop| image:: ./img/atmosphere/vnc_desktop.png
     :width: 400
     :height: 400
+.. |Atmosphere| raw:: html
+
+    <a href="https://atmo.cyverse.org/" target="_blank">Atmosphere</a>
