@@ -74,7 +74,7 @@ application.
 
       .. code:: bash
 
-        $iget file_on_instance location_on_data_store
+        $iput file_on_instance location_on_data_store
 
 
 .. tip::
