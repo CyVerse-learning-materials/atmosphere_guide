@@ -63,8 +63,8 @@ Downloads, access, and services
     * - iCommands (Optional)
       - While you don't have to have iCommands installed, the transferring data
         section of this guide assumes familiarity with iCommands. You may wish
-        to complete the iCommands tutorial, and you may wish to install iCommands
-        on a local machine if you want to transfer data from that machine to an
+        to complete the iCommands tutorial especially if you are working with large (2 GB+) files, and you want to install iCommands
+        on a local machine to transfer data to the Data Store and use it in a
         Atmosphere instance
       - -`iCommands Guide <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step2.html>`_
         -`iCommands Download links <https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands>`_
