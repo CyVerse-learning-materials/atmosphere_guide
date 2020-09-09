@@ -1,6 +1,6 @@
-# License for CyVerse Documentation (Version 2.0 - May 2020)
+# License for CyVerse Documentation
 
-Documentation contained in this repo is made available under at CC BY 4.0 License: https://creativecommons.org/licenses/by/4.0/legalcode
+Documentation contained in this repo is made available under at CC BY 4.0 License: https://creativecommons.org/licenses/by/4.0/legalcode 
 
 You may:
 

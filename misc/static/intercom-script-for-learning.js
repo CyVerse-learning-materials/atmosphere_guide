@@ -1,5 +1,3 @@
-/* Version 2.0, May 2020 */
-
 window.intercomSettings = {
   app_id: "tpwq3d9w",
   company: {
