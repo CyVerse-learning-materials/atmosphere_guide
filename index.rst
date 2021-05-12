@@ -1,4 +1,6 @@
 .. include:: cyverse_rst_defined_substitutions.txt
+.. include:: custom_urls.txt
+
 |CyVerse_logo|_
 
 |Home_Icon|_
@@ -36,6 +38,22 @@ on the CyVerse wiki.
 	you have an additional page called 'First Step' with content located in 'step1.rst'.
 	Copy step1.rst. step2.rst has slightly different formatting to end the document.
 	Edit these titles and filenames as needed ####
+
+Guide Maintainer(s)
+------------------------
+
+Who to contact if this guide needs fixing. You can also email
+`learning@CyVerse.org <learning@CyVerse.org>`_
+
+.. list-table::
+    :header-rows: 1
+
+    * - Maintainer
+      - Institution
+      - Contact
+    * - Tyson Lee Swetnam
+      - CyVerse / UA
+      - tswetnam@cyverse.org
 
 
 Prerequisites
