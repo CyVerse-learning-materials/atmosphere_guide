@@ -9,7 +9,7 @@
 **Atmosphere Guide**
 ====================
 
-|atmosphere-icon|
+|atmosphere-icon|_
 
 Goal
 ----
@@ -141,3 +141,4 @@ Downloads, access, and services
 .. |atmosphere-icon| image:: ./img/atmosphere/atmosphere-icon.png
     :width: 150
     :height: 100
+.. _atmosphere-icon: https://atmo.cyverse.org/ 
