@@ -14,7 +14,12 @@ copyright: 'Copyright &copy; 2022 CyVerse'
 
 # Navigation Page
 nav:
-  - Quickstart home: index.md
+  - Tutorial home: index.md
+  - Logging in to Atmosphere: step1.md
+  - Creating a Project and Launching an Instance: step2.md
+  - Connecting to an Instance: step3.md
+  - Transferring Data to and from an Instance: step 4.md
+  - Terminating an Instance: step5.md
 
 # JavaScript for Intercom Widget
 extra_javascript:
