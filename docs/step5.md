@@ -1,7 +1,4 @@
-![Home_Icon](./img/homeicon.png){width="25px" height="25px"}\_ [Learning
-Center Home](http://learning.cyverse.org/)
-
-# **Terminating an Instance**
+# Terminating an Instance
 
 Once you have finished with your Atmosphere instance you will need to
 terminate this instance. If you are not done with the instance and will
@@ -11,7 +8,7 @@ manual](https://wiki.cyverse.org/wiki/display/atmman/Suspending%2C+Stopping%2C+R
 
 ------------------------------------------------------------------------
 
-## *Terminating an Instance*
+## Terminating an Instance
 
 > ::: warning
 > ::: title
@@ -27,15 +24,15 @@ manual](https://wiki.cyverse.org/wiki/display/atmman/Suspending%2C+Stopping%2C+R
 > 1.  If necessary, login to and locate the instance you are terminating
 >     in a given project.
 > 2.  Click on the instance name to get to that instances page. You
->     should see an \"Actions\" menu on the right-hand side of the page.
+>     should see an "Actions" menu on the right-hand side of the page.
 > 3.  Click **Delete** to terminate the instance; read the warning, and
->     click \'YES, DELETE THIS INSTANCE\' when you are ready to
+>     click 'YES, DELETE THIS INSTANCE' when you are ready to
 >     proceed - remember **all data still on this instance will be
 >     lost.**
 
 ------------------------------------------------------------------------
 
-## *Summary*
+## Summary
 
 This guide has taken you through the absolute basics needed to start
 using Atmosphere. There is a lot more to learn, and many more
@@ -53,12 +50,12 @@ full manual to learn more.
 
 ------------------------------------------------------------------------
 
-**Fix or improve this documentation**
+#### Fix or improve this documentation 
 
--   Search for an answer:
+-   Search for an answer: [CyVerse Learning Center](https://learning.cyverse.org/en/latest/)
 -   Ask us for help: click on the lower right-hand side of the page
--   Report an issue or submit a change:
--   Send feedback: [Tutorials@CyVerse.org](Tutorials@CyVerse.org)
+-   Report an issue or submit a change: [GitHub Repo Link](https://github.com/CyVerse-learning-materials/atmosphere_guide/tree/mkdocs)
+-   Send feedback: [learning@CyVerse.org](learning@CyVerse.org)
 
 ------------------------------------------------------------------------
 

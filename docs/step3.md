@@ -1,9 +1,6 @@
-![Home_Icon](./img/homeicon.png){width="25px" height="25px"}\_ [Learning
-Center Home](http://learning.cyverse.org/)
+# Connecting to an Instance
 
-# **Connecting to an Instance**
-
-Once your instance is in the \'Active\' state, you can connect to the
+Once your instance is in the 'Active' state, you can connect to the
 instance. All instances support connection at the command line via SSH.
 Many (but not all) instances may also have a graphical desktop. You can
 connect to these desktops via a VNC viewing client. We will cover both
@@ -20,7 +17,7 @@ methods in this guide.
 
 2.  Locate the IP address and copy this to your clipboard.
 
-3.  Open your computer\'s terminal application.
+3.  Open your computer's terminal application.
 
 4.  Connect via SSH:
 
@@ -29,7 +26,7 @@ methods in this guide.
     >
     > # If connecting for the first time, you may be get a security prompt
     >
-    > The authenticity of host '128.196.64.200 (128.196.64.200)' can\'t be established.
+    > The authenticity of host '128.196.64.200 (128.196.64.200)' can't be established.
     > ECDSA key fingerprint is SHA256:fzEJLqeljHgIwcGY0gUap2sRWLlGPQwUVimhEgkJYBs.
     > Are you sure you want to continue connecting (yes/no)?
     >
@@ -57,8 +54,8 @@ You should now be connected to your Atmosphere instance.
 
 2.  Locate the IP address and copy this to your clipboard.
 
-3.  Open \'PuTTY.exe\' and paste the IP address into the \'Host Name (or
-    IP address s)\' field; click \'Open\'
+3.  Open 'PuTTY.exe' and paste the IP address into the 'Host Name (or
+    IP address s)' field; click 'Open'
 
     > ::: note
     > ::: title
@@ -66,12 +63,12 @@ You should now be connected to your Atmosphere instance.
     > :::
     >
     > If this is your first time connecting, you may get a security
-    > prompt that the server\'s host key is not cached in the registry.
-    > You may click \'Yes\' to continue connecting.
+    > prompt that the server's host key is not cached in the registry.
+    > You may click 'Yes' to continue connecting.
     > :::
 
 4.  When prompted, enter your CyVerse username for the request to
-    \'login as:\' and enter your CyVerse password to connect.
+    'login as:' and enter your CyVerse password to connect.
 
     > ::: tip
     > ::: title
@@ -126,12 +123,12 @@ height="400px"}
 
 ------------------------------------------------------------------------
 
-**Fix or improve this documentation**
+#### Fix or improve this documentation 
 
--   Search for an answer:
+-   Search for an answer: [CyVerse Learning Center](https://learning.cyverse.org/en/latest/)
 -   Ask us for help: click on the lower right-hand side of the page
--   Report an issue or submit a change:
--   Send feedback: [Tutorials@CyVerse.org](Tutorials@CyVerse.org)
+-   Report an issue or submit a change: [GitHub Repo Link](https://github.com/CyVerse-learning-materials/atmosphere_guide/tree/mkdocs)
+-   Send feedback: [learning@CyVerse.org](learning@CyVerse.org)
 
 ------------------------------------------------------------------------
 

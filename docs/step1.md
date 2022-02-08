@@ -17,14 +17,14 @@ about the advanced features not covered here.
     to increase these allocations, but ultimately there are limits. You
     can be a good community member by only using resources when you need
     them, and not leaving instances aimlessly running (the proverbial
-    \'leaving the lights on\').
+    'leaving the lights on').
 
 ------------------------------------------------------------------------
 
 ## Logging on and viewing your resources
 
  1.  Login to Atmosphere at <https://atmo.cyverse.org/> and click the
-     \'Login\' link on the upper right-hand side of the screen. Enter
+     'Login' link on the upper right-hand side of the screen. Enter
      your CyVerse credential and sign in.
 
  2.  Upon login, you will be directed to the [Atmosphere
@@ -51,7 +51,7 @@ about the advanced features not covered here.
 
 ------------------------------------------------------------------------
 
-# Fix or improve this documentation 
+#### Fix or improve this documentation 
 
 -   Search for an answer: [CyVerse Learning Center](https://learning.cyverse.org/en/latest/)
 -   Ask us for help: click on the lower right-hand side of the page

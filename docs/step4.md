@@ -1,8 +1,4 @@
-![Home_Icon](./img/homeicon.png){width="25px" height="25px"}\_ [Learning
-Center Home](http://learning.cyverse.org/)
-
-**Transferring Data to and from an Instance**
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+# Transferring Data to and from an Instance
 
 An Atmosphere instance only contains data that were included in the
 original image that was used to make that instance. You can transfer
@@ -19,14 +15,14 @@ using iCommands. iCommands is installed on every Atmosphere instance.
 
 ------------------------------------------------------------------------
 
-# *Transferring Data to/from an Instance using iCommands*
+## Transferring Data to/from an Instance using iCommands
 
-You can execute to the instance\'s icommand if you are connected via
+You can execute to the instance's icommand if you are connected via
 SSH/PuTTY or if you are connected to the desktop via VNC, open the
-instance\'s terminal application.
+instance's terminal application.
 
-> 1.  At the instance\'s terminal, start the iCommands configuration
->     using the \'iinit\' command and enter configure.
+> 1.  At the instance's terminal, start the iCommands configuration
+>     using the 'iinit' command and enter configure.
 >
 >     > ::: important
 >     > ::: title
@@ -48,11 +44,11 @@ instance\'s terminal application.
 >     > ```
 >     >
 >     > If you make a mistake in your configuration you can edit
->     > [\~/.irods/irods_environment.json]{.title-ref} on your instance.
+>     > [~/.irods/irods_environment.json]{.title-ref} on your instance.
 >     > :::
 >
 > 2.  Test your configuration by listing your Data Store contents with
->     the \"ils\" command.
+>     the "ils" command.
 >
 >     > ``` bash
 >     > $ ils
@@ -68,13 +64,13 @@ instance\'s terminal application.
 >     > :::
 >
 > 3.  To download a file from the Data Store to your instance, use
->     \"iget\"
+>     "iget"
 >
 >     > ``` bash
 >     > $iget data_store_file
 >     > ```
 >
-> 4.  To upload file from your instance to the Data Store use \"iput\"
+> 4.  To upload file from your instance to the Data Store use "iput"
 >
 >     > ``` bash
 >     > $iget file_on_instance location_on_data_store
@@ -93,12 +89,12 @@ on the CyVerse wiki.
 
 ------------------------------------------------------------------------
 
-**Fix or improve this documentation**
+#### Fix or improve this documentation 
 
--   Search for an answer:
+-   Search for an answer: [CyVerse Learning Center](https://learning.cyverse.org/en/latest/)
 -   Ask us for help: click on the lower right-hand side of the page
--   Report an issue or submit a change:
--   Send feedback: [Tutorials@CyVerse.org](Tutorials@CyVerse.org)
+-   Report an issue or submit a change: [GitHub Repo Link](https://github.com/CyVerse-learning-materials/atmosphere_guide/tree/mkdocs)
+-   Send feedback: [learning@CyVerse.org](learning@CyVerse.org)
 
 ------------------------------------------------------------------------
 
