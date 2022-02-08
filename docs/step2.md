@@ -8,26 +8,26 @@ volumes (datasets) or images ("saved" instances).
 
 **Definitions: Image and Instance**
 
-- **Instance**: an instance is a running virtual machine. <br>
+- **Instance**: *an instance is a running virtual machine.* <br>
     You request from Atmosphere a CPUs, disk space, and memory, and you are
     temporarily allocated these physical resources to "build" your
     virtual computer (virtual machine).
 
-- **Image**: an image is a file that contains an operating system, and any other data that was saved at the time of imaging (creating the image file). <br>
+- **Image**: *an image is a file that contains an operating system, and any other data that was saved at the time of imaging (creating the image file).* <br>
     If we saved everything on your computer to an image file,
     we could clone your computer onto a new device and you would not
     have to reinstall any software. Your files, system preferences,
     etc. would all be saved.
 
-- **Volume**: a volume is a "virtual disk" that you can attach and detach to your instance, like a thumb drive. <br>
-    Normally, when you start an
-    instance, you need to transfer data onto it. While the data
+- **Volume**: *a volume is a "virtual disk" that you can attach and detach to your instance, like a thumb drive.* <br>
+    Normally, when you start an instance, you need to transfer data onto it. While the data
     transfer may be quick, it usually takes time. A volume is nearly
     instantaneous. Although it is virtual you can keep a volume
     persistently in Atmosphere, and attach and detach as needed to
     any instance.
 
 > **Note**
+>
 > For our purpose, the terms "instance" and "virtual machine" are used interchangeably in this guide.
 
 ------------------------------------------------------------------------
@@ -49,7 +49,7 @@ these projects.
 
 | Image name | Version | Description | Link |
 | --- | --- | --- | --- |
-| CyVerse Training Workshop | 1.0 | This image contains some basic functionalities for use in CyVerse training workshops <br> (RStudio/Rstudio Server, Jupyter Notebook/Server, Sleuth, Kallisto RNA-Seq tools | [Image](https://atmo.cyverse.org/application/images/1467) |
+| CyVerse Training Workshop | 1.0 | This image contains some basic functionalities for use in CyVerse training workshops <br> (RStudio/Rstudio Server, Jupyter Notebook/Server, Sleuth, Kallisto RNA-Seq tools) | [Image](https://atmo.cyverse.org/application/images/1467) |
 
 ------------------------------------------------------------------------
 

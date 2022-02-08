@@ -27,11 +27,12 @@ following services/software*
 | Terminal or SSH client (Optional) | You can connect via Webshell to an Atmosphere instance from a web browser. Alternatively, you can connect via SSH from a Mac or Linux computer. If you are using Windows, we suggest a SSH client. | Windows compatible SSH client (Optional) [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) |
 | VNC Viewing Client (Optional) | You can connect to a desktop-enabled Atmosphere instance from a web browser. Alternatively you can connect via a VNC viewing client such as Real VNC viewer. | Download [Real VNC Viewer for your OS](https://www.realvnc.com/download/viewer/) |
 
-> #### Important
-> To request access to Atmosphere, login to the [CyVerse User Portal](). In the [Services Menu](https://user.cyverse.org/services/mine) under
-> 'MY SERVICES' you should see Atmosphere listed as an option you can launch. If not, look uner the
+> **Important**
+>
+> To request access to Atmosphere, login to the [CyVerse User Portal](https://user.cyverse.org). In the [Services Menu](https://user.cyverse.org/services/mine) under
+> **'MY SERVICES'** you should see Atmosphere listed as an option you can launch. If not, look uner the
 > [Available](https://user.cyverse.org/services/available) menu, and click
-> the 'REQUEST ACCESS' link. You will receive an email requesting
+> the **'REQUEST ACCESS'** link. You will receive an email requesting
 > additional information. To qualify for an Atmosphere account, your
 > CyVerse account must be associated with an institutional email address
 > (e.g. .edu/.org/.gov).
