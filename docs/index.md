@@ -36,7 +36,6 @@ following services/software*
 > CyVerse account must be associated with an institutional email address
 > (e.g. .edu/.org/.gov).
 
-
 ------------------------------------------------------------------------
 
 # Fix or improve this documentation 
