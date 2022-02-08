@@ -8,26 +8,20 @@ volumes (datasets) or images ("saved" instances).
 
 **Definitions: Image and Instance**
 
--   
-
-    ***Instance***: An instance is a running virtual machine.
+- ***<ins>Instance</ins>***: an instance is a running virtual machine.
 
     :   You request from Atmosphere a CPUs, disk space, and memory, and you are
         temporarily allocated these physical resources to "build" your
         virtual computer (virtual machine).
 
--   
-
-    ***Image***: An image is a file that contains an operating system, and any other data that was saved at the time of imaging (creating the image file).
+- ***<ins>Image</ins>***: an image is a file that contains an operating system, and any other data that was saved at the time of imaging (creating the image file).
 
     :   If we saved everything on your computer to an image file,
         we could clone your computer onto a new device and you would not
         have to reinstall any software. Your files, system preferences,
         etc. would all be saved.
 
--   
-
-    ***Volume***: A volume is a "virtual disk" that you can attach and detach to your instance, like a thumb drive.
+- ***<ins>Volume</ins>***: a volume is a "virtual disk" that you can attach and detach to your instance, like a thumb drive.
 
     :   Normally, when you start an
         instance, you need to transfer data onto it. While the data
@@ -48,7 +42,7 @@ volumes (datasets) or images ("saved" instances).
     on the 'CREATE NEW PROJECT' button; give your project a name and
     description and click 'CREATE'.
 
-From the 'Projects' page, you will see a listing of existing projects
+From the **'Projects'** page, you will see a listing of existing projects
 and the number of instance, images, volumes, and links associated with
 these projects.
 
@@ -70,13 +64,12 @@ these projects.
     part of that project. If necessary, create a new project using the directions above.
 
 3.  From your project's individual page, click on the **NEW** button
-    and select 'Instance'.
+    and select **'Instance'**.
 
-4.  Search through the available instances in the 'Launch an
-    Instance/Select an Image' window.
+4.  Search through the available instances in the **'Launch an
+    Instance/Select an Image'** window.
 
-    > ![launch_window](./img/atmosphere/launch_window.png){width="500px"
-    > height="400px"}
+    > ![launch_window](./img/atmosphere/launch_window.png){width="500px"height="400px"}
     >
     > **Tip**
     >
@@ -90,7 +83,7 @@ these projects.
 
 5.  Search the catalog for the **CyVerse Training Workshop** image.
 
-6.  To launch an instance now, click 'LAUNCH INSTANCE'. Alternatively,
+6.  To launch an instance now, click **'LAUNCH INSTANCE'**. Alternatively,
     you can name your image, or adjust other settings including the
     project, and instances size before clicking the launch button.
 
@@ -107,10 +100,8 @@ minutes.
 
 > **Important**
 >
-> You can only connect to an instance when the status displayed is
-> **'Active'**.
-> ![instance_status](./img/atmosphere/instance_status.png){width="600px"
-> height="120px"}
+> You can only connect to an instance when the status displayed is**'Active'**.
+> ![instance_status](./img/atmosphere/instance_status.png){width="600px"height="120px"}
 
 ------------------------------------------------------------------------
 
