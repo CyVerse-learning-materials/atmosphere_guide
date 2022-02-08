@@ -8,27 +8,27 @@ volumes (datasets) or images ("saved" instances).
 
 **Definitions: Image and Instance**
 
-- ***<ins>Instance</ins>***: an instance is a running virtual machine.
+- **Instance**: an instance is a running virtual machine.
 
-    :   You request from Atmosphere a CPUs, disk space, and memory, and you are
-        temporarily allocated these physical resources to "build" your
-        virtual computer (virtual machine).
+    You request from Atmosphere a CPUs, disk space, and memory, and you are
+    temporarily allocated these physical resources to "build" your
+    virtual computer (virtual machine).
 
-- ***<ins>Image</ins>***: an image is a file that contains an operating system, and any other data that was saved at the time of imaging (creating the image file).
+- **Image**: an image is a file that contains an operating system, and any other data that was saved at the time of imaging (creating the image file).
 
-    :   If we saved everything on your computer to an image file,
-        we could clone your computer onto a new device and you would not
-        have to reinstall any software. Your files, system preferences,
-        etc. would all be saved.
+    If we saved everything on your computer to an image file,
+    we could clone your computer onto a new device and you would not
+    have to reinstall any software. Your files, system preferences,
+    etc. would all be saved.
 
-- ***<ins>Volume</ins>***: a volume is a "virtual disk" that you can attach and detach to your instance, like a thumb drive.
+- **Volume**: a volume is a "virtual disk" that you can attach and detach to your instance, like a thumb drive.
 
-    :   Normally, when you start an
-        instance, you need to transfer data onto it. While the data
-        transfer may be quick, it usually takes time. A volume is nearly
-        instantaneous. Although it is virtual you can keep a volume
-        persistently in Atmosphere, and attach and detach as needed to
-        any instance.
+    Normally, when you start an
+    instance, you need to transfer data onto it. While the data
+    transfer may be quick, it usually takes time. A volume is nearly
+    instantaneous. Although it is virtual you can keep a volume
+    persistently in Atmosphere, and attach and detach as needed to
+    any instance.
 
 > **Note**
 > For our purpose, the terms "instance" and "virtual machine" are used interchangeably in this guide.
@@ -39,8 +39,8 @@ volumes (datasets) or images ("saved" instances).
 
 1.  If necessary, login to [Atmosphere](https://atmo.cyverse.org/application/images).
 2.  Click on the **'Projects'** menu at the top of the page; the click
-    on the 'CREATE NEW PROJECT' button; give your project a name and
-    description and click 'CREATE'.
+    on the **'CREATE NEW PROJECT'** button; give your project a name and
+    description and click **'CREATE'**.
 
 From the **'Projects'** page, you will see a listing of existing projects
 and the number of instance, images, volumes, and links associated with
@@ -100,7 +100,7 @@ minutes.
 
 > **Important**
 >
-> You can only connect to an instance when the status displayed is**'Active'**.
+> You can only connect to an instance when the status displayed is **'Active'**.
 > ![instance_status](./img/atmosphere/instance_status.png){width="600px"height="120px"}
 
 ------------------------------------------------------------------------
