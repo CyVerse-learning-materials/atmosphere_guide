@@ -10,7 +10,7 @@ volumes (datasets) or images ("saved" instances).
 
 -   
 
-    **Instance**: An instance is a running virtual machine.
+    ***Instance***: An instance is a running virtual machine.
 
     :   You request from Atmosphere a CPUs, disk space, and memory, and you are
         temporarily allocated these physical resources to "build" your
@@ -18,7 +18,7 @@ volumes (datasets) or images ("saved" instances).
 
 -   
 
-    **Image**: An image is a file that contains an operating system, and any other data that was saved at the time of imaging (creating the image file).
+    ***Image***: An image is a file that contains an operating system, and any other data that was saved at the time of imaging (creating the image file).
 
     :   If we saved everything on your computer to an image file,
         we could clone your computer onto a new device and you would not
@@ -27,7 +27,7 @@ volumes (datasets) or images ("saved" instances).
 
 -   
 
-    **Volume**: A volume is a "virtual disk" that you can attach and detach to your instance, like a thumb drive.
+    ***Volume***: A volume is a "virtual disk" that you can attach and detach to your instance, like a thumb drive.
 
     :   Normally, when you start an
         instance, you need to transfer data onto it. While the data
@@ -36,14 +36,14 @@ volumes (datasets) or images ("saved" instances).
         persistently in Atmosphere, and attach and detach as needed to
         any instance.
 
-    > #### Note
-    > For our purpose, the terms "instance" and "virtual machine" are used interchangeably in this guide.
+> **Note**
+> For our purpose, the terms "instance" and "virtual machine" are used interchangeably in this guide.
 
 ------------------------------------------------------------------------
 
-## *Creating a Project*
+## Creating a Project
 
-1.  If necessary, login to . .
+1.  If necessary, login to [Atmosphere](https://atmo.cyverse.org/application/images).
 2.  Click on the **'Projects'** menu at the top of the page; the click
     on the 'CREATE NEW PROJECT' button; give your project a name and
     description and click 'CREATE'.
@@ -56,19 +56,18 @@ these projects.
 
 **Atmosphere Image(s):**
 
-  Image name                  Version   Description                                                                                                                                                                               Link                                                        Notes/other links
-  --------------------------- --------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------- -------------------
-  CyVerse Training Workshop   1.0       This image contains some basic functionality for use in CyVerse training workshops including RStudio/Rstudio Server, Jupyter Notebook/Server, and the Sleuth and Kallisto RNA-Seq tools   [Image](https://atmo.cyverse.org/application/images/1467)   
+| Image name | Version | Description | Link |
+| --- | --- | --- | --- |
+| CyVerse Training Workshop | 1.0 | This image contains some basic functionalities for use in CyVerse training workshops <br> (RStudio/Rstudio Server, Jupyter Notebook/Server, Sleuth, Kallisto RNA-Seq tools | [Image](https://atmo.cyverse.org/application/images/1467) |
 
 ------------------------------------------------------------------------
 
-## *Launching an Instance*
+## Launching an Instance
 
-1.  If necessary, login to .
+1.  If necessary, login to [Atmosphere](https://atmo.cyverse.org/application/images).
 
-2.  On the page click on an existing project to launch the instance as
-    part of that project. If necessary, create a new project using the
-    directions above.
+2.  On the page [Projects](https://atmo.cyverse.org/application/projects) click on an existing project to launch the instance as
+    part of that project. If necessary, create a new project using the directions above.
 
 3.  From your project's individual page, click on the **NEW** button
     and select 'Instance'.
@@ -79,19 +78,15 @@ these projects.
     > ![launch_window](./img/atmosphere/launch_window.png){width="500px"
     > height="400px"}
     >
-    > ::: tip
-    > ::: title
-    > Tip
-    > :::
+    > **Tip**
     >
-    > You can search the image catalogue at any time from the page.
+    > You can search the image catalogue at any time from the [Image Search](https://atmo.cyverse.org/application/images/search) page.
     > Click on the 'Images' link at the top of the Atmosphere page.
     > Most images have tags to help you identify the installed software.
     > You can also click on an image listing to get additional details
     > and descriptions. Since Most images are community-developed, the
     > documentation is only as good as what is provided by the image
     > owner.
-    > :::
 
 5.  Search the catalog for the **CyVerse Training Workshop** image.
 
@@ -99,31 +94,23 @@ these projects.
     you can name your image, or adjust other settings including the
     project, and instances size before clicking the launch button.
 
-    > ::: note
-    > ::: title
-    > Note
-    > :::
+    > **Note**
     >
     > If you are trying Atmosphere for the first time, we recommend
     > using the default 'tiny1' instance size. Also note, that the
     > largest instance sizes are limited and may not be available at any
     > given time based on demand.
-    > :::
 
 Once your instance is launched, your project page will display the
 status of all instances. Instances are typically available within 10-15
 minutes.
 
-> ::: important
-> ::: title
-> Important
-> :::
+> **Important**
 >
 > You can only connect to an instance when the status displayed is
 > **'Active'**.
 > ![instance_status](./img/atmosphere/instance_status.png){width="600px"
 > height="120px"}
-> :::
 
 ------------------------------------------------------------------------
 
