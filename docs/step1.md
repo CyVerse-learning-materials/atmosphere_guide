@@ -37,12 +37,11 @@ about the advanced features not covered here.
      instances launched.
 
 
-
-> #### Tip
+> **Tip**
 > Your allocation (a measure of how many instances you have running,
 > their size, and the amount of time they have been active)
 > automatically refreshes monthly. If you run out of allocation, you
-> can click the 'NEED MORE' button to request an increase. When
+> can click the 'NEED MORE?' button to request an increase. When
 > you exceed your allocation, your instances are suspended. You will
 > not lose saved data, but running processes will be stopped. See
 > the Atmosphere section in the [CyVerse service-level
@@ -51,7 +50,7 @@ about the advanced features not covered here.
 
 ------------------------------------------------------------------------
 
-#### Fix or improve this documentation 
+**Fix or improve this documentation**
 
 -   Search for an answer: [CyVerse Learning Center](https://learning.cyverse.org/en/latest/)
 -   Ask us for help: click on the lower right-hand side of the page

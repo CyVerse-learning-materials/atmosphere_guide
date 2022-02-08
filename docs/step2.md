@@ -10,27 +10,26 @@ volumes (datasets) or images ("saved" instances).
 
 -   
 
-    **Instance**: An instance is a running virtual machine. You request from
+    **Instance**: An instance is a running virtual machine.
 
-    :   Atmosphere a CPUs, disk space, and memory, and you are
+    :   You request from Atmosphere a CPUs, disk space, and memory, and you are
         temporarily allocated these physical resources to "build" your
         virtual computer (virtual machine).
 
 -   
 
-    **Image**: An image is a file that contains an operating system, and any other
+    **Image**: An image is a file that contains an operating system, and any other data that was saved at the time of imaging (creating the image file).
 
-    :   data that was saved at the time of imaging (creating the image
-        file). If we saved everything on your computer to an image file,
+    :   If we saved everything on your computer to an image file,
         we could clone your computer onto a new device and you would not
         have to reinstall any software. Your files, system preferences,
         etc. would all be saved.
 
 -   
 
-    **Volume**: A volume is a "virtual disk" that you can attach and detach to
+    **Volume**: A volume is a "virtual disk" that you can attach and detach to your instance, like a thumb drive.
 
-    :   your instance, like a thumb drive. Normally, when you start an
+    :   Normally, when you start an
         instance, you need to transfer data onto it. While the data
         transfer may be quick, it usually takes time. A volume is nearly
         instantaneous. Although it is virtual you can keep a volume
@@ -128,7 +127,7 @@ minutes.
 
 ------------------------------------------------------------------------
 
-#### Fix or improve this documentation 
+**Fix or improve this documentation**
 
 -   Search for an answer: [CyVerse Learning Center](https://learning.cyverse.org/en/latest/)
 -   Ask us for help: click on the lower right-hand side of the page
