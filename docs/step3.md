@@ -95,7 +95,7 @@ You should now be connected to your Atmosphere instance.
     username. Enter your CyVerse password and click Ok.
 
 You should now be connected to your instance desktop.
-![vnc_desktop](./img/atmosphere/vnc_desktop.png){width="400px"
+![vnc_desktop](./assets/atmosphere/vnc_desktop.png){width="400px"
 height="400px"}
 
 ------------------------------------------------------------------------

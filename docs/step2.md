@@ -66,7 +66,7 @@ these projects.
 4.  Search through the available instances in the **'Launch an
     Instance/Select an Image'** window.
 
-    > ![launch_window](./img/atmosphere/launch_window.png){width="500px"height="400px"}
+    > ![launch_window](./assets/atmosphere/launch_window.png){width="500px"height="400px"}
     >
     > **Tip**
     >
@@ -98,7 +98,7 @@ minutes.
 > **Important**
 >
 > You can only connect to an instance when the status displayed is **'Active'**.
-> ![instance_status](./img/atmosphere/instance_status.png){width="600px"height="120px"}
+> ![instance_status](./assets/atmosphere/instance_status.png){width="600px"height="120px"}
 
 ------------------------------------------------------------------------
 
