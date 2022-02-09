@@ -10,23 +10,20 @@ manual](https://wiki.cyverse.org/wiki/display/atmman/Suspending%2C+Stopping%2C+R
 
 ## Terminating an Instance
 
-> ::: warning
-> ::: title
-> Warning
-> :::
+> **Warning**
 >
 > Once an instance is terminated, all data on that instance is
 > unrecoverable. Ensure that any data you wish to save is transferred to
 > a persistent location such as the CyVerse Data Store or an Atmosphere
 > volume.
-> :::
+
 >
 > 1.  If necessary, login to and locate the instance you are terminating
 >     in a given project.
 > 2.  Click on the instance name to get to that instances page. You
->     should see an "Actions" menu on the right-hand side of the page.
+>     should see an **"Actions"** menu on the right-hand side of the page.
 > 3.  Click **Delete** to terminate the instance; read the warning, and
->     click 'YES, DELETE THIS INSTANCE' when you are ready to
+>     click **'YES, DELETE THIS INSTANCE'** when you are ready to
 >     proceed - remember **all data still on this instance will be
 >     lost.**
 
@@ -41,12 +38,9 @@ full manual to learn more.
 
 **Next Steps:**
 
--   Read through the [Atmosphere
-    manual](https://wiki.cyverse.org/wiki/display/atmman/Atmosphere+Manual+Table+of+Contents)
+-   Read through the [Atmosphere manual](https://wiki.cyverse.org/wiki/display/atmman/Atmosphere+Manual+Table+of+Contents)
 -   Search the [CyVerse Learning Center](http://learning.cyverse.org)
     for additional quick starts and tutorials that use Atmosphere
-
-### More help and additional information
 
 ------------------------------------------------------------------------
 

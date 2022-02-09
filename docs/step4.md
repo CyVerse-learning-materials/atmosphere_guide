@@ -76,16 +76,12 @@ instance's terminal application.
 >     > $iget file_on_instance location_on_data_store
 >     > ```
 
-::: tip
-::: title
-Tip
-:::
+> **Tip**
+>
+> iCommands has a variety of options, to see progress of transfers,
+> operate recursively, and more. See additional [iCommands documentation](https://wiki.cyverse.org/wiki/display/DS/Using+iCommands)
+> on the CyVerse wiki.
 
-iCommands has a variety of options, to see progress of transfers,
-operate recursively, and more. See additional [iCommands
-documentation](https://wiki.cyverse.org/wiki/display/DS/Using+iCommands)
-on the CyVerse wiki.
-:::
 
 ------------------------------------------------------------------------
 
