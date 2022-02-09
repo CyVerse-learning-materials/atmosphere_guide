@@ -66,7 +66,7 @@ these projects.
 4.  Search through the available instances in the **'Launch an
     Instance/Select an Image'** window.
 
-    > ![launch_window](atmosphere/launch_window.png){width="500px"height="400px"}
+    > ![launch_window](./assets/atmosphere/launch_window.png){width="500px"height="400px"}
     >
     > **Tip**
     >
