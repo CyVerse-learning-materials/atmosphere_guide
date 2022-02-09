@@ -24,13 +24,11 @@ instance's terminal application.
 > 1.  At the instance's terminal, start the iCommands configuration
 >     using the 'iinit' command and enter configure.
 >
->     > ::: important
->     > ::: title
->     > Important
->     > :::
->     >
->     > This configuration is a one-time step on your first use with
->     > this instance.
+>       
+>     > > **Important**
+>     > > 
+>     > > This configuration is a one-time step on your first use with
+>     > > this instance.
 >     >
 >     > ``` bash
 >     > $ iinit
@@ -45,7 +43,6 @@ instance's terminal application.
 >     >
 >     > If you make a mistake in your configuration you can edit
 >     > [~/.irods/irods_environment.json]{.title-ref} on your instance.
->     > :::
 >
 > 2.  Test your configuration by listing your Data Store contents with
 >     the "ils" command.
@@ -54,26 +51,22 @@ instance's terminal application.
 >     > $ ils
 >     > ```
 >     >
->     > ::: tip
->     > ::: title
->     > Tip
->     > :::
+>     > > **Tip**
 >     >
->     > If you made a mistake during the configuration, you can edit
->     > your icommands configuration file.
->     > :::
+>     > > If you made a mistake during the configuration, you can edit
+>     > > your icommands configuration file.
 >
 > 3.  To download a file from the Data Store to your instance, use
 >     "iget"
 >
 >     > ``` bash
->     > $iget data_store_file
+>     > $ iget data_store_file
 >     > ```
 >
 > 4.  To upload file from your instance to the Data Store use "iput"
 >
 >     > ``` bash
->     > $iget file_on_instance location_on_data_store
+>     > $ iget file_on_instance location_on_data_store
 >     > ```
 
 > **Tip**
