@@ -24,7 +24,7 @@ instance's terminal application.
 > 1.  At the instance's terminal, start the iCommands configuration
 >     using the 'iinit' command and enter configure.
 >
->     > ~~~  
+>     > ---
 >     > > **Important**
 >     > > 
 >     > > This configuration is a one-time step on your first use with
@@ -43,7 +43,7 @@ instance's terminal application.
 >     >
 >     > If you make a mistake in your configuration you can edit
 >     > [~/.irods/irods_environment.json]{.title-ref} on your instance.
->     > ~~~
+>     > ---
 >
 > 2.  Test your configuration by listing your Data Store contents with
 >     the "ils" command.
