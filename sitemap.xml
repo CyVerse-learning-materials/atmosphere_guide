@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://github.com/CyVerse-learning-materials/atmosphere_guide/</loc>
+         <lastmod>2022-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/CyVerse-learning-materials/atmosphere_guide/step1/</loc>
+         <lastmod>2022-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/CyVerse-learning-materials/atmosphere_guide/step2/</loc>
+         <lastmod>2022-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/CyVerse-learning-materials/atmosphere_guide/step3/</loc>
+         <lastmod>2022-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/CyVerse-learning-materials/atmosphere_guide/step4/</loc>
+         <lastmod>2022-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/CyVerse-learning-materials/atmosphere_guide/step5/</loc>
+         <lastmod>2022-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="CyVerse Science Team">
+  <link rel="canonical" href="https://github.com/CyVerse-learning-materials/atmosphere_guide/step3/">
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Connecting to an Instance - Atmosphere Guide</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Connecting to an Instance";
+    var mkdocs_page_input_path = "step3.md";
+    var mkdocs_page_url = "/CyVerse-learning-materials/atmosphere_guide/step3/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Atmosphere Guide</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Tutorial home</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../step1/">Logging in to Atmosphere</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../step2/">Creating a Project and Launching an Instance</a>
+                    </li>
+                </ul>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Connecting to an Instance</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#connect-to-atmosphere-instance-using-ssh">Connect to Atmosphere Instance using SSH</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#connecting-using-mac-or-linux-terminal">Connecting using Mac or Linux Terminal</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#connecting-using-windows-and-putty">Connecting using Windows and PuTTY</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#connect-to-atmosphere-instance-using-vnc-viewer">Connect to Atmosphere Instance using VNC viewer</a>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../step4/">Transferring Data to and from an Instance</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../step5/">Terminating an Instance</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Atmosphere Guide</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Connecting to an Instance</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/CyVerse-learning-materials/atmosphere_guide/edit/mkdocs/docs/step3.md"> Edit on CyVerse-learning-materials/atmosphere_guide</a>
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="connecting-to-an-instance">Connecting to an Instance<a class="headerlink" href="#connecting-to-an-instance" title="Permanent link">&para;</a></h1>
+<p>Once your instance is in the <strong>'Active'</strong> state, you can connect to the
+instance. All instances support connection at the command line via SSH.
+Many (but not all) instances may also have a graphical desktop. You can
+connect to these desktops via a VNC viewing client. We will cover both
+methods in this guide.</p>
+<hr />
+<h2 id="connect-to-atmosphere-instance-using-ssh">Connect to Atmosphere Instance using SSH<a class="headerlink" href="#connect-to-atmosphere-instance-using-ssh" title="Permanent link">&para;</a></h2>
+<h3 id="connecting-using-mac-or-linux-terminal">Connecting using Mac or Linux Terminal<a class="headerlink" href="#connecting-using-mac-or-linux-terminal" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>If necessary, login to and locate the instance you are connecting to
+    in a given project.</p>
+</li>
+<li>
+<p>Locate the IP address and copy this to your clipboard.</p>
+</li>
+<li>
+<p>Open your computer's terminal application.</p>
+</li>
+<li>
+<p>Connect via SSH:</p>
+<blockquote>
+<div class="highlight"><pre><span></span><code>$ ssh your_cyverse_username@your.atmosphere.ip.address
+
+<span class="c1"># If connecting for the first time, you may be get a security prompt</span>
+
+The authenticity of host <span class="se">\&#39;</span><span class="m">128</span>.196.64.200 <span class="o">(</span><span class="m">128</span>.196.64.200<span class="o">)</span><span class="se">\&#39;</span> can<span class="se">\&#39;</span>t be established.
+ECDSA key fingerprint is SHA256:fzEJLqeljHgIwcGY0gUap2sRWLlGPQwUVimhEgkJYBs.
+Are you sure you want to <span class="k">continue</span> connecting <span class="o">(</span>yes/no<span class="o">)</span>?
+
+<span class="c1"># you may accept this prompt by typing yes</span>
+</code></pre></div>
+</blockquote>
+</li>
+<li>
+<p>You will be prompted to enter your CyVerse password</p>
+<blockquote>
+<p><strong>Tip</strong></p>
+<p>Your cursor will not move or indicate you are typing as you enter
+your password. If you make a mistake, hit enter and you will be
+prompted again.</p>
+</blockquote>
+</li>
+</ol>
+<p>You should now be connected to your Atmosphere instance.</p>
+<h3 id="connecting-using-windows-and-putty">Connecting using Windows and PuTTY<a class="headerlink" href="#connecting-using-windows-and-putty" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>If necessary, login to and locate the instance you are connecting to
+    in a given project.</p>
+</li>
+<li>
+<p>Locate the IP address and copy this to your clipboard.</p>
+</li>
+<li>
+<p>Open <strong>'PuTTY.exe'</strong> and paste the IP address into the <strong>'Host Name (or
+    IP address s)'</strong> field; click <strong>'Open'</strong>.</p>
+<blockquote>
+<p><strong>Note</strong></p>
+<p>If this is your first time connecting, you may get a security
+prompt that the server's host key is not cached in the registry.
+You may click 'Yes' to continue connecting.</p>
+</blockquote>
+</li>
+<li>
+<p>When prompted, enter your CyVerse username for the request to
+    <strong>'login as:'</strong> and enter your CyVerse password to connect.</p>
+<blockquote>
+<p><strong>Tip</strong></p>
+<p>Your cursor will not move or indicate you are typing as you enter
+your password. If you make a mistake, hit enter and you will be
+prompted again.</p>
+</blockquote>
+</li>
+</ol>
+<hr />
+<h2 id="connect-to-atmosphere-instance-using-vnc-viewer">Connect to Atmosphere Instance using VNC viewer<a class="headerlink" href="#connect-to-atmosphere-instance-using-vnc-viewer" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p><strong>Note</strong></p>
+<p>You can only connect to an Atmosphere instance that has a desktop
+installed and has a running VNC server. Usually this information is in
+the image description. If you are unsure, or having difficulty in
+connecting to and instance you believe should have a desktop, contact
+Atmosphere support. If you have not already done so, download <a href="https://www.realvnc.com/download/viewer/">Real VNC
+Viewer</a>.</p>
+</blockquote>
+<ol>
+<li>If necessary, login to <a href="https://atmo.cyverse.org/application/dashboard">Atmosphere</a> and locate the instance you are connecting to
+    in a given project.</li>
+<li>Locate the IP address and copy this to your clipboard.</li>
+<li>
+<p>Open VNC Viewer. Paste your <strong>IP address + ":1"</strong> in the 'VNC
+    Server' field (e.g. 161.803.39.887:1) and click connect.</p>
+<blockquote>
+<p><strong>Note</strong></p>
+<p>When connecting for the first time to an instance, you will be
+prompted to save a signature
+4.  When prompted, ensure your username entered is your CyVerse
+username. Enter your CyVerse password and click Ok.</p>
+</blockquote>
+</li>
+</ol>
+<p>You should now be connected to your instance desktop.
+<img alt="vnc_desktop" src="../assets/atmosphere/vnc_desktop.png" width="400px" /></p>
+<hr />
+<p><strong>Fix or improve this documentation</strong></p>
+<ul>
+<li>Search for an answer: <a href="https://learning.cyverse.org/en/latest/">CyVerse Learning Center</a></li>
+<li>Ask us for help: click on the lower right-hand side of the page</li>
+<li>Report an issue or submit a change: <a href="https://github.com/CyVerse-learning-materials/atmosphere_guide/tree/mkdocs">GitHub Repo Link</a></li>
+<li>Send feedback: <a href="learning@CyVerse.org">learning@CyVerse.org</a></li>
+</ul>
+<hr />
+<p><a href="http://learning.cyverse.org/">Learning Center Home</a></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../step4/" class="btn btn-neutral float-right" title="Transferring Data to and from an Instance">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../step2/" class="btn btn-neutral" title="Creating a Project and Launching an Instance"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Copyright &copy; 2022 CyVerse</p>
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../step2/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../step4/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../javascripts/intercom-learning.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

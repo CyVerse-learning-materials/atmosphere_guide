@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="CyVerse Science Team">
+  <link rel="canonical" href="https://github.com/CyVerse-learning-materials/atmosphere_guide/step4/">
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Transferring Data to and from an Instance - Atmosphere Guide</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Transferring Data to and from an Instance";
+    var mkdocs_page_input_path = "step4.md";
+    var mkdocs_page_url = "/CyVerse-learning-materials/atmosphere_guide/step4/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Atmosphere Guide</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Tutorial home</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../step1/">Logging in to Atmosphere</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../step2/">Creating a Project and Launching an Instance</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../step3/">Connecting to an Instance</a>
+                    </li>
+                </ul>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Transferring Data to and from an Instance</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#transferring-data-tofrom-an-instance-using-icommands">Transferring Data to/from an Instance using iCommands</a>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../step5/">Terminating an Instance</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Atmosphere Guide</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Transferring Data to and from an Instance</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/CyVerse-learning-materials/atmosphere_guide/edit/mkdocs/docs/step4.md"> Edit on CyVerse-learning-materials/atmosphere_guide</a>
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="transferring-data-to-and-from-an-instance">Transferring Data to and from an Instance<a class="headerlink" href="#transferring-data-to-and-from-an-instance" title="Permanent link">&para;</a></h1>
+<p>An Atmosphere instance only contains data that were included in the
+original image that was used to make that instance. You can transfer
+data to/from the CyVerse Data Store, an Atmosphere Volume, a sever, or
+your local machine. In this guide, we will only cover data transfer
+using iCommands. iCommands is installed on every Atmosphere instance.</p>
+<p><strong>Related Links</strong></p>
+<ul>
+<li><strong>iCommands Guide:</strong>
+    <a href="https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step2.html">link</a></li>
+<li><strong>iCommands Download:</strong>
+    <a href="https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands">link</a></li>
+</ul>
+<hr />
+<h2 id="transferring-data-tofrom-an-instance-using-icommands">Transferring Data to/from an Instance using iCommands<a class="headerlink" href="#transferring-data-tofrom-an-instance-using-icommands" title="Permanent link">&para;</a></h2>
+<p>You can execute to the instance's icommand if you are connected via
+SSH/PuTTY or if you are connected to the desktop via VNC, open the
+instance's terminal application.</p>
+<blockquote>
+<ol>
+<li>
+<p>At the instance's terminal, start the iCommands configuration
+    using the 'iinit' command and enter configure.</p>
+<blockquote>
+<blockquote>
+<p><strong>Important</strong></p>
+<p>This configuration is a one-time step on your first use with
+this instance.</p>
+</blockquote>
+<div class="highlight"><pre><span></span><code>$ iinit
+
+<span class="c1"># As prompted, enter the following values:</span>
+<span class="c1"># Host: data.cyverse.org</span>
+<span class="c1"># Port: 1247</span>
+<span class="c1"># User: your_cyverse_username</span>
+<span class="c1"># Zone: iplant</span>
+<span class="c1"># Password: your_cyverse_password</span>
+</code></pre></div>
+<p>If you make a mistake in your configuration you can edit
+<code>~/.irods/irods_environment.json</code> on your instance.</p>
+</blockquote>
+</li>
+<li>
+<p>Test your configuration by listing your Data Store contents with
+    the <code>ils</code> command.</p>
+<blockquote>
+<div class="highlight"><pre><span></span><code>$ ils
+</code></pre></div>
+<blockquote>
+<p><strong>Tip</strong></p>
+<p>If you made a mistake during the configuration, you can edit
+your icommands configuration file.</p>
+</blockquote>
+</blockquote>
+</li>
+<li>
+<p>To download a file from the Data Store to your instance, use
+    <code>iget</code></p>
+<blockquote>
+<div class="highlight"><pre><span></span><code>$ iget data_store_file
+</code></pre></div>
+</blockquote>
+</li>
+<li>
+<p>To upload file from your instance to the Data Store use <code>iput</code></p>
+<blockquote>
+<div class="highlight"><pre><span></span><code>$ iget file_on_instance location_on_data_store
+</code></pre></div>
+</blockquote>
+</li>
+</ol>
+<p><strong>Tip</strong></p>
+<p>iCommands has a variety of options, to see progress of transfers,
+operate recursively, and more. See additional <a href="https://wiki.cyverse.org/wiki/display/DS/Using+iCommands">iCommands documentation</a>
+on the CyVerse wiki.</p>
+</blockquote>
+<hr />
+<p><strong>Fix or improve this documentation</strong></p>
+<ul>
+<li>Search for an answer: <a href="https://learning.cyverse.org/en/latest/">CyVerse Learning Center</a></li>
+<li>Ask us for help: click on the lower right-hand side of the page</li>
+<li>Report an issue or submit a change: <a href="https://github.com/CyVerse-learning-materials/atmosphere_guide/tree/mkdocs">GitHub Repo Link</a></li>
+<li>Send feedback: <a href="learning@CyVerse.org">learning@CyVerse.org</a></li>
+</ul>
+<hr />
+<p><a href="http://learning.cyverse.org/">Learning Center Home</a></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../step5/" class="btn btn-neutral float-right" title="Terminating an Instance">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../step3/" class="btn btn-neutral" title="Connecting to an Instance"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Copyright &copy; 2022 CyVerse</p>
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../step3/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../step5/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../javascripts/intercom-learning.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

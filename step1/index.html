@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="CyVerse Science Team">
+  <link rel="canonical" href="https://github.com/CyVerse-learning-materials/atmosphere_guide/step1/">
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Logging in to Atmosphere - Atmosphere Guide</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Logging in to Atmosphere";
+    var mkdocs_page_input_path = "step1.md";
+    var mkdocs_page_url = "/CyVerse-learning-materials/atmosphere_guide/step1/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Atmosphere Guide</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Tutorial home</a>
+                    </li>
+                </ul>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Logging in to Atmosphere</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#logging-on-and-viewing-your-resources">Logging on and viewing your resources</a>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../step2/">Creating a Project and Launching an Instance</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../step3/">Connecting to an Instance</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../step4/">Transferring Data to and from an Instance</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../step5/">Terminating an Instance</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Atmosphere Guide</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Logging in to Atmosphere</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/CyVerse-learning-materials/atmosphere_guide/edit/mkdocs/docs/step1.md"> Edit on CyVerse-learning-materials/atmosphere_guide</a>
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="logging-in-to-atmosphere">Logging in to Atmosphere<a class="headerlink" href="#logging-in-to-atmosphere" title="Permanent link">&para;</a></h1>
+<p>Atmosphere presents a variety of features, starting with the Atmosphere
+Dashboard you will see at login. While it may be slightly overwhelming,
+we will focus on the features a first-time user would likely interact
+with. Return to the Learning Center and Atmosphere Manual to learn more
+about the advanced features not covered here.</p>
+<p><strong>Some things to remember about the platform</strong></p>
+<ul>
+<li>You must have access to Atmosphere to launch an instance. If you are
+    not sure you have access, go back to the instructions at the
+    beginning of this guide</li>
+<li>Atmosphere works on a very transparent allocation model. Every user
+    has a defined amount of resources (CPUs, disk space, etc.) and time
+    they can use these resources. We are always happy to work with users
+    to increase these allocations, but ultimately there are limits. You
+    can be a good community member by only using resources when you need
+    them, and not leaving instances aimlessly running (the proverbial
+    'leaving the lights on').</li>
+</ul>
+<hr />
+<h2 id="logging-on-and-viewing-your-resources">Logging on and viewing your resources<a class="headerlink" href="#logging-on-and-viewing-your-resources" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p>Login to Atmosphere at <a href="https://atmo.cyverse.org/">https://atmo.cyverse.org/</a> and click the
+     'Login' link on the upper right-hand side of the screen. Enter
+     your CyVerse credential and sign in.</p>
+</li>
+<li>
+<p>Upon login, you will be directed to the <a href="https://atmo.cyverse.org/application/dashboard">Atmosphere
+     Dashboard</a>. Much
+     more about all the dashboard features is available in the
+     <a href="https://wiki.cyverse.org/wiki/display/atmman/About+the+Atmosphere+Dashboard">Atmosphere
+     Manual</a>
+     , but you can see the number of instances you have running, and
+     percent of your allocation used. You can also see an history of
+     instances launched.</p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Tip</strong></p>
+<p>Your allocation (a measure of how many instances you have running,
+their size, and the amount of time they have been active)
+automatically refreshes monthly. If you run out of allocation, you
+can click the <strong>'NEED MORE?'</strong> button to request an increase. When
+you exceed your allocation, your instances are suspended. You will
+not lose saved data, but running processes will be stopped. See
+the Atmosphere section in the <a href="http://www.cyverse.org/service-level-agreement#Atmo">CyVerse service-level
+agreement</a>
+for details and definitions related to our allocation policies.</p>
+</blockquote>
+<hr />
+<p><strong>Fix or improve this documentation</strong></p>
+<ul>
+<li>Search for an answer: <a href="https://learning.cyverse.org/en/latest/">CyVerse Learning Center</a></li>
+<li>Ask us for help: click on the lower right-hand side of the page</li>
+<li>Report an issue or submit a change: <a href="https://github.com/CyVerse-learning-materials/atmosphere_guide/tree/mkdocs">GitHub Repo Link</a></li>
+<li>Send feedback: <a href="learning@CyVerse.org">learning@CyVerse.org</a></li>
+</ul>
+<hr />
+<p><a href="http://learning.cyverse.org/">Learning Center Home</a></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../step2/" class="btn btn-neutral float-right" title="Creating a Project and Launching an Instance">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href=".." class="btn btn-neutral" title="Tutorial home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Copyright &copy; 2022 CyVerse</p>
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../step2/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../javascripts/intercom-learning.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
